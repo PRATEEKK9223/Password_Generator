@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+    font-size:62.5%;
+}
+
+body{
+    background-color:#0f172a;
+
+}
+
+.container{
+    position: relative;
+    left:20rem;
+    top:20rem;
+}
+
+.container h1{
+    color:#fff;
+    font-size:5rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.container h1 span{
+    color:#00CFFF;
+    border-bottom: 5px solid #00CFFF ;
+}
+
+.password{
+    display:flex;
+    align-items: center;
+    gap:1rem;
+    width:50rem;
+    height:5.5rem;
+    background-color: #fff;
+    margin-bottom: 3rem;;
+}
+
+.password input{
+    border:none; 
+    outline:none;
+    width:90%;
+    height:100%;
+    font-size:2.5rem;
+    font-weight: 700;
+    padding-left:1rem;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.password img{
+   width:3rem;
+   height:3rem;
+}
+
+.btn{
+    display: block;
+    width:20rem;
+    height: 4rem;
+    border: none;
+    border-radius:5px;
+    font-size:1.5rem;
+    font-weight: 500;
+    background-color:#FF8C00;
+    color:white;
+}
+
+.length{
+    display: flex;
+    color:#fff;
+    background-color:#FF8C00;
+    width:10rem;
+    height: 4rem;
+    border:none ;
+    border-radius:5px ;
+    justify-content: center;
+    align-items: center;
+}
+
+.length p{
+     font-size:1.5rem;
+    font-weight: 500;
+}
+
+.length select{
+    border: none;
+    background-color:#FF8C00;
+    color:#fff;
+    outline: none;
+    border-radius:5px ;
+    font-size:1.5rem;
+    font-weight: 500;
+}
+.foot{
+    display:flex;
+    gap:1rem;
+}
+/* .........................Responsive design....................... */
+
+@media(max-width:800px){
+    :root{
+        font-size:55%;
+    }
+}
+
+@media(max-width:650px){
+    :root{
+        font-size:50%;
+    }
+}
+
+
+@media(max-width:600px){
+    .container{
+    position: relative;
+    left:10rem;
+    top:30rem;
+    }
+
+}
+
+@media(max-width:500px){
+    .container{
+    position: relative;
+    left:2rem;
+    top:30rem;
+    }
+
+    .container h1{
+    font-size:3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    }
+
+    .password input{
+    width:90%;
+    height:100%;
+    font-size:2.5rem;
+    font-weight: 500;
+}
+
+    .password{
+        width:40rem;
+    }
+
+}
+
+@media(max-width:350px){
+    .password{
+        width:35rem;
+        height:5.5rem;
+    }
+}
+
